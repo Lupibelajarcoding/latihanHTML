@@ -15,21 +15,21 @@
         width: 100%;
         border-collapse: collapse;
     }
-    .table th, .table td {
+    table th, .table td {
         border: 1px solid black;
         padding: 8px;
         text-align: left;
     }
-    .table th {
+    table th {
         background-color: pink;
     }
 </style>
 <body>
-    <h1>Daftar Menu</h1>
+    <h1 style="text-align: center;">Daftar Menu</h1>
     <div class="container">
         <div class="table">
-            <h2>Daftar Makanan</h2>
             <table>
+                <caption><h2>Makanan</h2></caption>
                 <tr>
                     <th>Makanan</th>
                     <th>Harga</th>
@@ -57,8 +57,8 @@
             </table>
         </div>
         <div class="table">
-            <h2>Daftar Minuman</h2>
             <table>
+                <caption><h2>Minuman</h2></caption>
                 <tr>
                     <th>Minuman</th>
                     <th>Harga</th>
