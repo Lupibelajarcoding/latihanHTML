@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Tabel</title>
+</head>
+<style>
+    .table1{
+        width: 100%;
+        border-collapse: collapse;
+    }
+    .table2{
+        width: 100%;
+        border-spacing: 30px;
+        border: 1px solid black;
+    }
+    th,td{
+        border: 1px solid black;
+        padding-top: 10px;
+        padding-bottom: 20px;
+        padding-left: 30px;
+        padding-right: 40px;
+    }
+    th{
+        background-color: pink;
+    }
+    th:hover {background-color: gold;}
+    td:hover {background-color: aqua;}
+    .space {
+        padding-top: 10px;
+    }
+</style>
+<body>
+    <h2>Cellpadding - Top - Bottom - Left - Right</h2>
+    <table class="table1">
+        <tr>
+            <th>First name</th>
+            <th>Last name</th>
+            <th>Age</th>
+        </tr>
+        <tr>
+            <td>Jill</td>
+            <td>Smith</td>
+            <td>50</td>
+        </tr>
+        <tr>
+            <td>Eve</td>
+            <td>Jackson</td>
+            <td>94</td>
+        </tr>
+        <tr>
+            <td>John</td>
+            <td>Doe</td>
+            <td>80</td>
+        </tr>
+    </table>
+    <div class="space">
+        <h2>Cellspacing</h2>
+        <table class="table2">
+            <tr>
+                <th>First name</th>
+                <th>Last name</th>
+                <th>Age</th>
+            </tr>
+            <tr>
+                <td>Jill</td>
+                <td>Smith</td>
+                <td>50</td>
+            </tr>
+            <tr>
+                <td>Eve</td>
+                <td>Jackson</td>
+                <td>94</td>
+            </tr>
+            <tr>
+                <td>John</td>
+                <td>Doe</td>
+                <td>80</td>
+            </tr>
+        </table>
+    </div>
+</body>
