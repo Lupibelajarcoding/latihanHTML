@@ -5,15 +5,15 @@
 </head>
 <style>
     *{
-        font-family: 'Times New Roman';
+        font-family:Arial, Helvetica, sans-serif;
     }
     legend{
-        background-color: cyan;
+        background-color: aqua;
     }
 </style>
 <body>
     <fieldset>
-        <legend>Biodata Pribadi</legend>
+        <legend><b>Biodata Pribadi</b></legend>
         <table>
             <tr>
                 <td><label for="nama">Nama</label></td>
