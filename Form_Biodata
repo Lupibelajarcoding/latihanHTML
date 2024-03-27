@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Form Biodata</title>
+</head>
+<style>
+    *{
+        font-family: 'Times New Roman';
+    }
+    legend{
+        background-color: cyan;
+    }
+</style>
+<body>
+    <fieldset>
+        <legend>Biodata Pribadi</legend>
+        <table>
+            <tr>
+                <td><label for="nama">Nama</label></td>
+                <td>:</td>
+                <td><input type="text" id="nama" name="nama" value="Luthfi"></td>
+            </tr>
+            <tr>
+                <td><label for="alamat">Alamat</label></td>
+                <td>:</td>
+                <td><textarea placeholder="Masukkan Alamat Anda Disini"></textarea></td>
+            </tr>
+            <tr>
+                <td><label for="ttl">TTL</label></td>
+                <td>:</td>
+                <td><input type="text" id="ttl" name="ttl">
+                <input type="date" id="ttl" name="ttl"></td>
+            </tr>
+            <tr>
+                <td>Jenis Kelamin</td>
+                <td>:</td>
+                <td><input type="radio" id="kelamin" name="kelamin">
+                    <label for="kelamin">Laki - Laki</label>
+                    <input type="radio" id="kelamin" name="kelamin">
+                    <label for="kelamin">Perempuan</label></td>
+            </tr>
+            <tr>
+                <td><label for="agama">Agama</label></td>
+                <td>:</td>
+                <td><select id="agama" nama="agama">
+                    <option value="islam">Islam</option>
+                    <option value="kristen">Kristen</option>
+                    <option value="Katholik">Katholik</option>
+                    <option value="hindu">Hindu</option>
+                    <option value="buddha">Buddha</option>
+                </select></td>
+            </tr>
+            <tr>
+                <td><label for="hobi">Hobby</label></td>
+                <td>:</td>
+                <td><input type="checkbox" id="hobi1" name="hobi1" value="olahraga">
+                    <label for="hobi1">Olahraga</label>
+                    <input type="checkbox" id="hobi2" name="hobi2" value="main game">
+                    <label for="hobi2">Main Game</label>
+                    <input type="checkbox" id="hobi3" name="hobi3" value="bersepeda">
+                    <label for="hobi3">Bersepeda</label>
+                    <input type="checkbox" id="hobi4" name="hobi4" value="mendaki">
+                    <label for="hobi4">Mendaki</label>
+                    <input type="checkbox" id="hobi5" name="hobi5" value="komputer">
+                    <label for="hobi5">Komputer</label></td>
+            </tr>
+            <tr>
+                <td><label for="motto">Motto</label></td>
+                <td>:</td>
+                <td><textarea placeholder="Isikan Motto Anda Disini"></textarea></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td><a href="form_biodata.html"><input type="submit" value="Reset"></a> <input type="submit" value="Simpan"></td>
+            </tr>
+        </table>
+    </fieldset>
+</body>
+</html>
