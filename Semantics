@@ -43,7 +43,7 @@
     }
     article img {
         text-align: center;
-        height: 500px;
+        height: 250px;
     }
     footer {
         text-align: center;font-size: 20px;
@@ -62,11 +62,12 @@
     </header>
 
 <nav>
-    <a href="semantik.html">Home</a>
+    <a href="semantics.html">Home</a>
     <a href="coba.html">Daftar Menu</a>
     <a href="https://web.whatsapp.com/">Kontak</a>
 </nav>
 <section>
+    <section class="browser">
     <h1>Harapan</h1>
     <p>Harapan saya dapat mengikuti perkuliahan desain web secara lancar dan tanpa ada hambatan.</p>
 </section>
