@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<style>
+    *{
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    body{
+        background-image: url(Assets/valorant-background-super-grafis-dark-600nw-2051284997.webp);
+    }
+    img{
+        width: 50%;
+        display: flex;
+        margin: auto;
+    }
+    h2{
+        text-align: center;
+        font-size: 40px;
+        color: white;
+    }
+    article{
+        color: white; 
+    }
+</style>
+<body>
+    <h2>Jett</h2>
+    <img src="Assets/V_AGENTS_587x900_Jett.png" alt="Jett">
+<article>
+    <p>Nama asli Jett sebenarnya adalah Joon-Hee, dia awalnya adalah seorang chef di kawasan Insa-dong, Seoul, Korea Selatan. Saat menjadi chef, dia pun terlibat insiden radiasi yang mirip dengan angin dengan kekuatan yang sangat kencang. Ketika itulah dia akhirnya direkrut protokol Valorant dan masuk dalam jajaran agen yang ke-10 di Valorant.</p>
+    <p>Jett sendiri berasal dari ras Radiant dan memiliki role sebagai duelist. Awalnya, dia sering maju di situasi bahaya dan mengabaikan keselamatan agen lainnya. Meski begitu, dia pun tersadar pentingnya kekuatan tim dan menjaga keselamatan sesamanya di situasi apapun.</p>
+    <p>Dalam Valorant, Jett digambarkan sebagai sosok dengan gadis yang berkulit dan berambut putih terikat di bagian belakangnya. Matanya memiliki warna biru yang tajam. Sementara, ketika memulai petualangannya, Jett mengenakan rompi yang lengkap dengan sabuk khusus. Dimana sabuk tersebut memiliki kunai atau pisau yang tajam sebagai senjatanya.</p>
+</article>
+</body>
+</html>
