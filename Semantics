@@ -32,8 +32,8 @@
     aside {
         text-align: center;
         width: 20%;
-        padding-left: 10px;
-        margin-left: 10px;
+        padding-right: 10px;
+        margin-right: 10px;
         float: right;
         font-style: bold;
         background-color: pink;
@@ -63,7 +63,7 @@
 
 <nav>
     <a href="semantics.html">Home</a>
-    <a href="coba.html">Daftar Menu</a>
+    <a href="coba_tabel.html">Daftar Menu</a>
     <a href="https://web.whatsapp.com/">Kontak</a>
 </nav>
 <section>
